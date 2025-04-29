@@ -22,7 +22,7 @@
 
 ### 2. 安裝PDF下載器腳本
 1. 下載本專案內容，或直接點擊以下連結安裝腳本：
-   [PDF下載器腳本鏈接](#)
+   [PDF下載器腳本鏈接](https://github.com/lindaobinaki/NKUST-elearning-pdf-downloader/releases/tag/javascript)
 2. 安裝腳本後，進入高科大教學平台。
 3. 在教學平台中，Tampermonkey 的腳本會自動運行，並提供PDF下載按鈕。
 
