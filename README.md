@@ -17,6 +17,7 @@
 1. 前往您的瀏覽器擴充功能商店。
    - Chrome 瀏覽器：[Chrome Web Store](https://chromewebstore.google.com/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-TW&authuser=0)
    - Firefox 瀏覽器：[Firefox Add-ons](https://addons.mozilla.org/zh-TW/firefox/addon/tampermonkey/)
+   - Edge 瀏覽器：[Edge add-ons](https://microsoftedge.microsoft.com/addons/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/iikmkjmpaadaobahmlepeloendndfphd)
 2. 搜尋並安裝 **Tampermonkey**。
 3. 安裝完成後，確認瀏覽器右上角顯示 Tampermonkey 的圖示。
 
