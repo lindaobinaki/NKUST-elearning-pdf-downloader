@@ -27,7 +27,7 @@
 2. 安裝腳本後，進入高科大教學平台。
 3. 在教學平台中，Tampermonkey 的腳本會自動運行，並提供PDF下載按鈕。
 
-## IOS捷徑
+### IOS捷徑
 1.透過連結下載捷徑
    [ios捷徑下載連結](https://www.icloud.com/shortcuts/1f40ec746a3441e0bcd710481ea7a282)
 2.安裝完成後到你想下載的課程網頁中按下<img width="224" height="224" alt="image" src="https://github.com/user-attachments/assets/c9e79854-4842-4634-b363-e4c65abcf585" />
