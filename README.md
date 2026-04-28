@@ -1,6 +1,6 @@
 # 高科大教學平台PDF下載器
 
-這是一個專為高科大教學平台設計的PDF下載器，能夠輕鬆幫助使用者下載課程的PDF檔案。使用此工具前，您需要先安裝 **竄改猴（Tampermonkey）** 瀏覽器擴充功能，然後再安裝本專案的腳本內容。
+這是一個專為高科大教學平台設計的PDF下載器，能夠輕鬆幫助使用者下載課程的PDF檔案。使用此工具前，需要先安裝 **竄改猴（Tampermonkey）** 瀏覽器擴充功能，然後再安裝本專案的腳本內容。
 
 ---
 
@@ -8,11 +8,11 @@
 - 自動檢測高科大教學平台的PDF資源。
 - 一鍵下載課程PDF，節省時間與精力。
 - 簡單易用，適合所有使用者。
-
----
+- 2026/4/28更新: 已支援IOS捷徑功能
 
 ## 安裝教學
 
+## 竄改猴
 ### 1. 安裝竄改猴（Tampermonkey）
 1. 前往您的瀏覽器擴充功能商店。
    - Chrome 瀏覽器：[Chrome Web Store](https://chromewebstore.google.com/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-TW&authuser=0)
@@ -27,6 +27,12 @@
 2. 安裝腳本後，進入高科大教學平台。
 3. 在教學平台中，Tampermonkey 的腳本會自動運行，並提供PDF下載按鈕。
 
+## IOS捷徑
+1.透過連結下載捷徑
+   [ios捷徑下載連結](https://www.icloud.com/shortcuts/1f40ec746a3441e0bcd710481ea7a282)
+2.安裝完成後到你想下載的課程網頁中按下<img width="224" height="224" alt="image" src="https://github.com/user-attachments/assets/c9e79854-4842-4634-b363-e4c65abcf585" />
+3.找到 **高科PDF下載器** 並點擊
+4.點擊後請稍作等待，他會跳出一個新的視窗讓你選擇要下載哪個PDF
 ---
 
 ## 使用步驟
