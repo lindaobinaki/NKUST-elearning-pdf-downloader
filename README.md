@@ -18,55 +18,100 @@
    - Chrome 瀏覽器：[Chrome Web Store](https://chromewebstore.google.com/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-TW&authuser=0)
    - Firefox 瀏覽器：[Firefox Add-ons](https://addons.mozilla.org/zh-TW/firefox/addon/tampermonkey/)
    - Edge 瀏覽器：[Edge add-ons](https://microsoftedge.microsoft.com/addons/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/iikmkjmpaadaobahmlepeloendndfphd)
-2. 搜尋並安裝 **Tampermonkey**。
+# 高科大教學平台 PDF 下載器
+
+這是一個專為高科大教學平台設計的 PDF 下載器，能夠輕鬆幫助使用者下載課程的 PDF 檔案。使用此工具前，請先安裝竄改猴（Tampermonkey）瀏覽器擴充功能，然後安裝本專案的腳本內容。
+
+---
+
+## 功能特色
+
+- 自動檢測高科大教學平台的 PDF 資源。
+- 一鍵下載課程 PDF，節省時間與精力。
+- 簡單易用，適合所有使用者。
+- 2026/04/28 更新：已支援 iOS 捷徑功能。
+
+---
+
+## 安裝教學
+
+### 竄改猴（Tampermonkey）
+
+1. 前往您的瀏覽器擴充功能商店：
+   - Chrome： [Chrome Web Store](https://chromewebstore.google.com/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-TW&authuser=0)
+   - Firefox： [Firefox Add-ons](https://addons.mozilla.org/zh-TW/firefox/addon/tampermonkey/)
+   - Edge： [Edge add-ons](https://microsoftedge.microsoft.com/addons/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/iikmkjmpaadaobahmlepeloendndfphd)
+
+2. 搜尋並安裝 Tampermonkey。
+
 3. 安裝完成後，確認瀏覽器右上角顯示 Tampermonkey 的圖示。
 
-### 2. 安裝PDF下載器腳本
-1. 下載本專案內容，或直接點擊以下連結安裝腳本：
-   [PDF下載器腳本鏈接](https://github.com/lindaobinaki/NKUST-elearning-pdf-downloader/releases/tag/javascript)
-2. 安裝腳本後，進入高科大教學平台。
-3. 在教學平台中，Tampermonkey 的腳本會自動運行，並提供PDF下載按鈕。
+### 安裝 PDF 下載器腳本
 
-### IOS捷徑
-1.透過連結下載捷徑
-   [ios捷徑下載連結](https://www.icloud.com/shortcuts/1f40ec746a3441e0bcd710481ea7a282)
-2.安裝完成後到你想下載的課程網頁中按下<img width="224" height="224" alt="image" src="https://github.com/user-attachments/assets/c9e79854-4842-4634-b363-e4c65abcf585" />
-3.找到 **高科PDF下載器** 並點擊
-4.點擊後請稍作等待，他會跳出一個新的視窗讓你選擇要下載哪個PDF
+1. 下載本專案內容，或直接點擊以下連結安裝腳本：
+   [PDF 下載器腳本（GitHub Releases）](https://github.com/lindaobinaki/NKUST-elearning-pdf-downloader/releases/tag/javascript)
+
+2. 安裝腳本後，進入高科大教學平台。
+
+3. 在教學平台中，Tampermonkey 的腳本會自動運行，並提供 PDF 下載按鈕。
+
+---
+
+## iOS 捷徑
+
+### 1. 安裝捷徑
+
+1. 透過連結下載捷徑：
+   [iOS 捷徑下載連結](https://www.icloud.com/shortcuts/1f40ec746a3441e0bcd710481ea7a282)
+
+### 2. 執行捷徑
+
+1. 安裝完成後，前往你想下載的課程網頁。
+2. 呼叫捷徑並選擇「高科 PDF 下載器」。
+3. 等候處理，捷徑會跳出新的視窗供你選擇要下載的 PDF。
+
+![高科 PDF 捷徑示意圖](https://github.com/user-attachments/assets/c9e79854-4842-4634-b363-e4c65abcf585)
+
 ---
 
 ## 使用步驟
+
 1. 登入高科大教學平台。
-2. 前往課程頁面，腳本會自動檢測可下載的PDF檔案並顯示在畫面右下角。
-3. 點擊腳本生成的 **下載** 按鈕，會跳出一個新視窗供用戶下載PDF。
+2. 前往課程頁面，腳本會自動檢測可下載的 PDF 檔案並顯示在畫面右下角。
+3. 點擊腳本生成的 **下載** 按鈕，會跳出一個新視窗供用戶下載 PDF。
 
 ---
 
 ## 注意事項
+
 - 本工具僅供學術用途，請勿用於任何未經授權的行為。
-- 若遇到功能無法正常運作，請確認 Tampermonkey 是否已啟用，並檢查腳本是否更新到最新版本。
-- 本工具僅限電腦使用 手機/平板無法使用!!!!!
+- 若遇到功能無法正常運作，請確認 Tampermonkey 是否已啟用，並檢查腳本是否為最新版本。
+- 本工具僅限電腦使用，手機／平板暫不支援。
 
 ---
 
 ## 常見問題
-### Q: 為什麼下載按鈕沒有顯示？
-A: 請確認您已安裝並啟用 Tampermonkey，同時確認腳本已正確加載。
 
-### Q: 如何更新腳本？
-A: 進入 Tampermonkey 的管理面板，選擇本腳本，然後點擊 **檢查更新**。
+### Q：為什麼下載按鈕沒有顯示？
+
+A：請確認您已安裝並啟用 Tampermonkey，且腳本已正確加載。
+
+### Q：如何更新腳本？
+
+A：進入 Tampermonkey 的管理面板，選擇本腳本，然後點擊 **檢查更新**。
 
 ---
 
 ## 貢獻
+
 如果您對此專案有任何建議或發現問題，歡迎提交 Issue 或 Pull Request。
 
 ---
 
 ## 聯絡方式
+
 如有任何問題，請聯繫：C113156108@nkust.edu.tw
 
 ---
 
-喜歡的話請給我一個star
-感謝您的支持，祝您使用愉快！
+如果喜歡，請給個 star。感謝您的支持，祝您使用愉快！
